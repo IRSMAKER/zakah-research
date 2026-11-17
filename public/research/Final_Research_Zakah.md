@@ -14,6 +14,9 @@ formula → the institution), canonical order inside each cluster.
 **Files:** `1_Zakah_Verses.md` (collected verses), `2_Study_Order.md` (study plan, all 56 ticked),
 `3_Study_Notes.md` (verse-by-verse journal), `PROGRESS.md` (live thesis draft).
 
+**Note on the rendering:** the noun **zakāh** is left untranslated in the web edition. Hovering or
+focusing the word shows its root meaning, **purity-with-growth**.
+
 ---
 
 ## Part 1 — The settled core

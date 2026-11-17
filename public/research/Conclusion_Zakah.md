@@ -4,6 +4,9 @@
 forms) in the Quran, documented in `3_Study_Notes.md` (56 entries) and synthesized in
 `Final_Research_Zakah.md`.
 
+**Note on the rendering:** the noun **zakāh** is left untranslated in the web edition; its root
+meaning is shown as **purity-with-growth**.
+
 ---
 
 ## 1. The Root's Core Meaning
