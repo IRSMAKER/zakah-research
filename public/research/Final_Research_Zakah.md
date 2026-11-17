@@ -18,7 +18,7 @@ formula → the institution), canonical order inside each cluster.
 
 ## Part 1 — The settled core
 
-The root Z-K-W (ز-ك-و) names **growth-through-purity**: the release of a portion that cleans what
+The root Z-K-W (ز-ك-و) names **purity-with-growth**: the release of a portion that cleans what
 remains and causes it to increase. Not a tax, not a percentage, not a once-a-year receipt — a
 transfer whose stated double effect is **cleansing and growth**.
 
@@ -209,7 +209,7 @@ fuses the two acts.
 
 ## Part 6 — Cluster E: The Institution (17 verses)
 
-Community, power, economy, and the increase.
+Community, power, economy, and growth.
 
 **E1 (9:5)** — the **peace-condition**: repent, establish, give → release their way.
 
@@ -264,7 +264,7 @@ life is asked for.
 
 | Lexeme | Form | Meaning | Where |
 |---|---|---|---|
-| ZAKĀH | noun (f.) | the growth-purity; the institutional giving that produces it | 2:43, 2:83, 2:110, 98:5, etc. (26×) |
+| ZAKĀH | noun (f.) | purity-with-growth; the institutional giving that produces it | 2:43, 2:83, 2:110, 98:5, etc. (26×) |
 | ZAKĀH | indefinite noun | a purity-endowment; a grade of purity | 19:13 · 18:81 |
 | ZAKĀH | indefinite noun | any act of zakāh-giving | 30:39 |
 | ZAKĪ | adjective | pure, guiltless, sound | 18:74 · 19:19 |
@@ -291,14 +291,14 @@ as a quality of a sound self and became the name of the act that produces that q
 | Form V assimilated | يَزَّكَّىٰ | 80:3 · 80:7 | to purify oneself |
 | Elative | أَزْكَىٰ | 18:19 · 2:232 · 24:28 · 24:30 | purer, more wholesome |
 | Adjective | زَكِيّ · زَكِيَّة | 19:19 · 18:74 | pure |
-| Noun | زَكَاة | 26× + 18:81 · 19:13 · 30:39 | the growth-purity / the giving |
+| Noun | زَكَاة | 26× + 18:81 · 19:13 · 30:39 | purity-with-growth / the giving |
 
 The voice-coverage is complete: **state** (zakā), **act** (zakkā, tazakkā), **grade** (azkā),
 **quality** (zakī), **institution** (zakāh). Every voice names the same field: purity that grows.
 
 ---
 
-## Part 9 — The Increase-Law
+## Part 9 — The Law of Increase
 
 | Verse | What increases | What does not |
 |---|---|---|
@@ -466,7 +466,7 @@ standing obligation to the promise of no grief.
 
 ## Part 18 — The Settled Meaning
 
-The root Z-K-W (ز-ك-و) names **growth-through-purity**: the release of a portion that cleans what
+The root Z-K-W (ز-ك-و) names **purity-with-growth**: the release of a portion that cleans what
 remains and causes it to increase — a sustained practice, not a percentage, not a receipt.
 
 **The SAME stem, THREE directions:**
@@ -507,7 +507,7 @@ on this single motion: **give the portion, and grow.**
 
 ## Conclusion
 
-The Qur'an uses the root Z-K-W (ز-ك-و) to name **growth-through-purity** — the release of a portion
+The Qur'an uses the root Z-K-W (ز-ك-و) to name **purity-with-growth** — the release of a portion
 that cleanses what remains and causes it to increase. The same stem names:
 
 - **The pure self** (STATE pole): the sound soul, the pure child, the wholesome food, the kept

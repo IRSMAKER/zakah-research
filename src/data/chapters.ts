@@ -34,7 +34,7 @@ export const chapters: Chapter[] = [
       },
       {
         title: "The hypothesis",
-        body: "Z-K-W names growth-through-purity: the release of a portion that cleanses what remains and causes it to increase.",
+        body: "Z-K-W names purity-with-growth: the release of a portion that cleanses what remains and causes it to increase.",
       },
     ],
     refs: ["18:74", "19:13", "18:19", "92:18", "23:4"],
@@ -81,10 +81,10 @@ export const chapters: Chapter[] = [
     eyebrow: "Cluster A · anchors",
     title: "Purity is a quality before it is a payment",
     lede:
-      "The first seventeen verses have almost no money in them. They name a pure soul, a pure boy, a purity given to a prophet, a child better in purity, wholesome food, a kept boundary, a guarded gaze.",
+      "The first seventeen verses have almost no money in them. They name a pure soul, a pure boy, a purity given to a prophet, a child better in zakāh, wholesome food, a kept boundary, a guarded gaze.",
     paragraphs: [
       "In 18:74 Musa protests the killing of “a pure soul” — a life without guilt, killed without a life in return. In 19:19 the angel announces “a pure boy” to Maryam. In 19:13 Yahya is given “tenderness from Us, and a purity.” These are qualities of persons, not sums of money.",
-      "The elative verses fix the scale. In 18:19 the sleepers seek the food that is “purest” — wholesome, unspoiled. In 18:81 the replacement child is “better in purity.” In 2:232, 24:28, and 24:30 a choice is “purer” for you. The root measures a grade of soundness, and a grade can rise.",
+      "The elative verses fix the scale. In 18:19 the sleepers seek the food that is “purest” — wholesome, unspoiled. In 18:81 the replacement child is “better in zakāh.” In 2:232, 24:28, and 24:30 a choice is “purer” for you. The root measures a grade of soundness, and a grade can rise.",
       "This is the control that decides the whole study. If zakāh began as a tax, these verses would be metaphorical extensions. If it began as a quality, the tax is the extension. The Quran's own order of use suggests the second.",
     ],
     discoveries: [
@@ -94,7 +94,7 @@ export const chapters: Chapter[] = [
       },
       {
         title: "Purity is a grade, not a switch",
-        body: "One child can be “better in purity” (18:81); one food can be “purest” (18:19); one choice “purer” (2:232).",
+        body: "One child can be “better in zakāh” (18:81); one food can be “purest” (18:19); one choice “purer” (2:232).",
       },
       {
         title: "The Quran's own gloss-pair",
@@ -149,7 +149,7 @@ export const chapters: Chapter[] = [
     paragraphs: [
       "The verse is not alone. The surah has already described the giver, the guarder, and the truster, and promised to ease him to ease (92:5-7). Then it names the intention: he does not give to repay a favour; he gives “only seeking the face of his Lord Most High” (92:19-21).",
       "The second half of the equation is 9:103: “Take from their wealth a giving by which you cleanse them and make them grow.” One act, two effects. The partitive “from” is decisive: the portion, not the whole. And the giving is taken by the Messenger, for purification — not by a treasury, for revenue.",
-      "So the noun zakāh does not name money. It names the growth-purity that the giving produces. Money is what passes through; the self is what changes.",
+      "So the noun zakāh does not name money. It names purity-with-growth that the giving produces. Money is what passes through; the self is what changes.",
     ],
     discoveries: [
       {
@@ -275,9 +275,9 @@ export const chapters: Chapter[] = [
     lede:
       "One verse settles the economics. God contrasts interest, which people think makes wealth grow, with zakāh, whose givers are named “the multipliers.” The Quran moves the increase-verb from the lender to the giver.",
     paragraphs: [
-      "30:39: “Whatever you give as interest so that it may increase in people's wealth does not increase with God; but whatever you give of the Increase, seeking God's face — those are the multipliers.” The same root for increase is used for interest, and denied. The giving is given a different name, and multiplied.",
+      "30:39: “Whatever you give as interest so that it may increase in people's wealth does not increase with God; but whatever you give of the zakāh, seeking God's face — those are the multipliers.” The same root for increase is used for interest, and denied. The giving is given a different name, and multiplied.",
       "The surrounding Quran agrees. 2:276 says God erases interest and makes the charities grow. 2:277 promises the givers no fear and no grief — the exact opposite of the anxious accumulator. 92:19-21 promises the giver who seeks the Face that he will be satisfied.",
-      "This is not a metaphor imported from a lexicon. It is the root's own growth sense, stated by the Quran in the root's own letters. Zakāh is the increase that comes by release.",
+      "This is not a metaphor imported from a lexicon. It is the root's own growth sense, stated by the Quran in the root's own letters. Zakāh is the growth that comes by release.",
     ],
     discoveries: [
       {
@@ -305,7 +305,7 @@ export const chapters: Chapter[] = [
     eyebrow: "The settled meaning",
     title: "Give the portion, and grow",
     lede:
-      "The study ends where it began: with the word. But the word is now a structure — growth-through-purity: the release of a portion that cleanses what remains and causes it to increase.",
+      "The study ends where it began: with the word. But the word is now a structure — purity-with-growth: the release of a portion that cleanses what remains and causes it to increase.",
     paragraphs: [
       "The root has three poles. The STATE is what the word is: a sound self, a pure child, a wholesome food, a kept boundary. The ACT is how it is done: a portion released from wealth, given despite love of it, given without return, given seeking the Face. The GRANT is who makes it work: God who purifies whom He wills, and the Messenger sent to recite, teach, and purify.",
       "The measure is not a percentage but a direction: outward, toward the Face, for the growth of what remains. The Quran never fixes a rate; it fixes an intention and names an effect. And it protects the giver from pride: the act is commanded, the verdict is God's.",

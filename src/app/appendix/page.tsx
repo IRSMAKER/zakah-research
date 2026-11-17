@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowLeft, Download } from "lucide-react";
 import { Markdown } from "@/components/Markdown";
 import { researchMarkdown } from "@/data/documents";
+import { ZakahLegend } from "@/components/ZakahTerm";
 
 export const metadata: Metadata = {
   title: "Full Research",
@@ -39,7 +40,7 @@ export default function AppendixPage() {
               <ArrowLeft className="size-4" />
               Back to the journey
             </Link>
-            <a href="/research-zakah.md" download className="btn">
+            <a href="/research-zakāh.md" download className="btn">
               <Download className="size-4" />
               Download markdown
             </a>
@@ -97,6 +98,7 @@ export default function AppendixPage() {
             </nav>
           </details>
 
+          <ZakahLegend className="mb-6" />
           <Markdown
             content={researchMarkdown.replace(/^\uFEFF?#\s+.*\r?\n/, "")}
             partIds

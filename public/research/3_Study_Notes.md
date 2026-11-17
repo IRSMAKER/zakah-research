@@ -360,7 +360,7 @@ same movement that bows gives.
 ---
 
 # CLUSTER E — THE INSTITUTION
-Community, power, economy, and the increase.
+Community, power, economy, and growth.
 
 ## E1 — 9:5 (الزكاة)
 **Text:** فَإِن تَابُوا وَأَقَامُوا الصَّلَاةَ وَآتَوُا الزَّكَاةَ فَخَلُّوا سَبِيلَهُمْ
@@ -508,7 +508,7 @@ himself.
 
 # FIRST-PASS COMPLETE — 56/56
 
-The root Z-K-W names **growth-through-purity**: the removal of what corrupts so that what remains
+The root Z-K-W names **purity-with-growth**: the removal of what corrupts so that what remains
 can increase. The Qur'an states the growth explicitly (30:39 `al-muḍʿifūn`), states the purity
 explicitly (9:103 `tuṭahhiruhum wa tuzakkīhim`), and states the instrument explicitly (92:18: giving
 wealth *is* self-purification). The noun `zakāh` is the institutional form of that act; the verb

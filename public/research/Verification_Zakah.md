@@ -1,6 +1,6 @@
-# Verification — Does "growth-through-purity" fit all 56 verses?
+# Verification — Does "purity-with-growth" fit all 56 verses?
 
-**Meaning tested:** Z-K-W = growth-through-purity: the release of a portion that cleanses what
+**Meaning tested:** Z-K-W = purity-with-growth: the release of a portion that cleanses what
 remains and causes it to increase. The SAME stem names the **STATE** (a sound self), the **ACT**
 (the giving that produces it), and the **GRANT** (God and the Messenger who make it work).
 
@@ -185,7 +185,7 @@ training.
 ## Special Cases
 
 **The non-monetary noun (19:13, 18:81).** These two verses would break a purely fiscal definition.
-Under "growth-through-purity" they are the *control*: they show the noun's core is a quality, and the
+Under "purity-with-growth" they are the *control*: they show the noun's core is a quality, and the
 institution is its application. ✓
 
 **The elative (18:19, 2:232, 24:28, 24:30).** `azkā` never means "more charitable"; it always means
@@ -240,7 +240,7 @@ Quran commands the act and names its effect; the rate is extra-Quranic jurisprud
 
 ## Final Verification
 
-The meaning "growth-through-purity" accounts for:
+The meaning "purity-with-growth" accounts for:
 
 1. **Every non-monetary use** (18:74, 19:19, 19:13, 18:81, 18:19, 2:232, 24:28, 24:30, 91:9, 79:18,
    87:14, 20:76, 35:18, 80:3, 80:7) — as the STATE pole.
@@ -265,7 +265,7 @@ controls.
 
 **Verdict: the meaning holds for 56/56 verses, with 0 nuances and 0 contradictions.**
 
-The root Z-K-W names **growth-through-purity**. The Quran states the purity (9:103), states the growth
+The root Z-K-W names **purity-with-growth**. The Quran states the purity (9:103), states the growth
 (30:39), states the instrument (92:18), states the act (23:4), and reserves the agent for God and His
 Messenger (4:49, 24:21, 62:2). The noun `zakāh` is the institutional name of the act; the elative
 `azkā` and the adjective `zakī` name the quality; the verb `zakkā` names the process.

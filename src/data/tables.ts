@@ -8,7 +8,7 @@ export const poles = [
     name: "STATE",
     gloss: "purity-growth",
     description:
-      "Purity as a quality of a living self: a pure soul, a pure boy, a purity given to a prophet, a child better in purity, wholesome food, a kept boundary, a guarded gaze. The root's success-word belongs here.",
+      "Purity as a quality of a living self: a pure soul, a pure boy, a purity given to a prophet, a child better in zakāh, wholesome food, a kept boundary, a guarded gaze. The root's success-word belongs here.",
     refs: ["18:74", "19:19", "19:13", "18:81", "18:19", "91:9"],
     marker: "Quality",
   },
@@ -33,10 +33,10 @@ export const poles = [
 ];
 
 export const nounLexicon: TableRow[] = [
-  { cells: ["ZAKĀH", "noun (f.)", "the growth-purity; the institution that carries it", "2:43 · 2:83 · 98:5 (26×)"] },
+  { cells: ["ZAKĀH", "noun (f.)", "purity-with-growth; the institution that carries it", "2:43 · 2:83 · 98:5 (26×)"] },
   { cells: ["ZAKĀH", "indefinite noun", "a purity-endowment given to a person", "19:13"] },
   { cells: ["ZAKĀH", "indefinite noun", "a grade of purity — “better in zakāh”", "18:81"] },
-  { cells: ["ZAKĀH", "indefinite noun", "any act of giving the Increase", "30:39"] },
+  { cells: ["ZAKĀH", "indefinite noun", "any act of giving the zakāh", "30:39"] },
   { cells: ["ZAKĪ", "adjective", "pure, guiltless, sound", "18:74 · 19:19"] },
   { cells: ["AZKĀ", "elative", "purer, more wholesome, better", "18:19 · 2:232 · 24:28 · 24:30"] },
   { cells: ["MUZAKKĪ", "Form II participle", "the one who purifies and causes growth", "2:129 · 3:164 · 9:103"] },
@@ -67,7 +67,7 @@ export const grantTable: TableRow[] = [
 export const breachPattern: TableRow[] = [
   { cells: ["2:174", "concealed the Book, sold it for a small price", "no purification; fire in the belly"] },
   { cells: ["3:77", "sold God's covenant and oaths for a small price", "no share, no speech, no look, no purity"] },
-  { cells: ["41:7", "withheld the Increase", "counted a disbeliever in the Hereafter"] },
+  { cells: ["41:7", "withheld the zakāh", "counted a disbeliever in the Hereafter"] },
   { cells: ["4:49", "claimed self-purity", "the claim corrected by the grant"] },
   { cells: ["53:32", "declared the self pure", "the verdict belongs to God alone"] },
   { cells: ["24:21", "followed Satan's steps", "purity impossible without grace"] },
@@ -77,7 +77,7 @@ export const breachPattern: TableRow[] = [
 export const twoEffect: TableRow[] = [
   { cells: ["9:103", "tuṭahhiruhum — cleanses them", "tuzakkīhim — makes them grow"] },
   { cells: ["2:232", "aṭhar — cleaner", "azkā — purer"] },
-  { cells: ["33:33", "yuṭahhirakum — purify you thoroughly", "the Increase commanded in the same verse"] },
+  { cells: ["33:33", "yuṭahhirakum — purify you thoroughly", "the zakāh commanded in the same verse"] },
   { cells: ["2:174", "—", "lā yuzakkīhim — He will not purify them"] },
   { cells: ["24:21", "—", "mā zakā … abadan — never pure"] },
 ];
@@ -86,7 +86,7 @@ export const wealthTable: TableRow[] = [
   { cells: ["2:177", "wealth, despite love of it", "relatives, orphans, the poor, the wayfarer, askers, slaves"] },
   { cells: ["9:103", "from their wealth, a giving", "taken by the Messenger; cleanses and grows"] },
   { cells: ["92:18", "his wealth", "not to repay a favour; seeking God's face"] },
-  { cells: ["30:39", "any giving of the Increase", "seeking God's face; multiplied"] },
+  { cells: ["30:39", "any giving of the zakāh", "seeking God's face; multiplied"] },
   { cells: ["2:110 · 73:20", "whatever good is sent ahead", "found with God, better and greater"] },
   { cells: ["5:12", "a good loan to God", "repaid with covering and gardens"] },
   { cells: ["2:274-276", "charity, secret and public", "God makes it grow"] },
@@ -167,10 +167,10 @@ export const bridges = [
     title: "The pivot",
     steps: [
       { ref: "30:38", text: "Give the relative his due, and the poor, and the wayfarer." },
-      { ref: "30:39", text: "Interest does not grow with God; the Increase multiplies its givers." },
+      { ref: "30:39", text: "Interest does not grow with God; the zakāh multiplies its givers." },
       { ref: "30:39", text: "Those who seek God's face are the multipliers." },
     ],
-    note: "The Quran moves the increase-verb from the lender to the giver. Increase belongs to God, not to the lender.",
+    note: "The Quran moves the increase-verb from the lender to the giver. Growth belongs to God, not to the lender.",
   },
 ];
 

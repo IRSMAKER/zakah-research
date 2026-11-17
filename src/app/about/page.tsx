@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Download, FileText } from "lucide-react";
 import { COUNTS } from "@/data/verses";
+import { ZakahTerm } from "@/components/ZakahTerm";
 
 export const metadata: Metadata = {
   title: "Method & Sources",
@@ -43,13 +44,13 @@ const method = [
 ];
 
 const downloads = [
-  ["1_Zakah_Verses.md", "The collected verses, with Arabic and word-forms", "19 KB"],
+  ["1_Zakāh_Verses.md", "The collected verses, with Arabic and word-forms", "19 KB"],
   ["2_Study_Order.md", "The study plan: 56 items in five clusters", "5 KB"],
   ["3_Study_Notes.md", "The verse-by-verse journal", "39 KB"],
-  ["Verification_Zakah.md", "The verse-by-verse fit test", "12 KB"],
-  ["Final_Research_Zakah.md", "The full 18-part research document", "28 KB"],
-  ["Conclusion_Zakah.md", "The detailed twelve-section conclusion", "10 KB"],
-  ["Conclusion_Zakah_Simple.md", "The plain-language conclusion", "5 KB"],
+  ["Verification_Zakāh.md", "The verse-by-verse fit test", "12 KB"],
+  ["Final_Research_Zakāh.md", "The full 18-part research document", "28 KB"],
+  ["Conclusion_Zakāh.md", "The detailed twelve-section conclusion", "10 KB"],
+  ["Conclusion_Zakāh_Simple.md", "The plain-language conclusion", "5 KB"],
 ];
 
 export default function AboutPage() {
@@ -65,7 +66,8 @@ export default function AboutPage() {
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
             This is a Quran-internal study. It does not begin from a dictionary, a school,
             or a translation. It begins with the root, collects every verse, reads each one
-            in context, and only then asks what they share.
+            in context, and only then asks what they share. The answer is a root meaning:{" "}
+            <span className="text-gold">purity-with-growth</span>.
           </p>
         </div>
       </section>
@@ -110,6 +112,11 @@ export default function AboutPage() {
                 <span className="text-gold">·</span> {COUNTS.forms} word forms
               </li>
             </ul>
+            <p className="mt-4 text-sm leading-relaxed text-muted">
+              The noun <ZakahTerm>zakāh</ZakahTerm> is left untranslated in the verse
+              library. Hover or focus it to see the root meaning,{" "}
+              <span className="text-gold">purity-with-growth</span>.
+            </p>
           </div>
 
           <div>
@@ -251,7 +258,7 @@ export default function AboutPage() {
           <div className="card-flat p-6">
             <p className="eyebrow">How to cite</p>
             <p className="mt-3 font-mono text-[0.8rem] leading-relaxed text-muted">
-              Idrees, Muhammad. <em>The Increase: A Quranic Study of Z-K-W</em>. 2026.
+              Idrees, Muhammad. <em>The Zakāh: A Quranic Study of Z-K-W</em>. 2026.
               Web. &lt;{process.env.NEXT_PUBLIC_SITE_URL ?? "https://zakah-research.vercel.app"}&gt;.
             </p>
             <p className="mt-4 text-[0.78rem] leading-relaxed text-faint">

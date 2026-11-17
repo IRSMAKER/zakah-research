@@ -1,15 +1,17 @@
-# The Increase — A Quranic Study of Z-K-W
+# The Zakāh — A Quranic Study of Z-K-W
 
 A public research notebook for the Quranic root **Z-K-W** (ز-ك-و). It presents the study step by step, then opens the complete library of all 56 distinct verses with Arabic, a research-consistent rendering, the word-form, the pole, and a note on how each verse fits.
 
-**Thesis:** Z-K-W names growth-through-purity: the release of a portion that cleanses what remains and causes it to increase. The same stem names a quality of the self (STATE), the giving that produces it (ACT), and the God who alone makes it work (GRANT).
+**Thesis:** Z-K-W names purity-with-growth: the release of a portion that cleanses what remains and causes it to increase. The same stem names a quality of the self (STATE), the giving that produces it (ACT), and the God who alone makes it work (GRANT).
+
+The noun **zakāh** is left untranslated. Hover or focus the word anywhere in the app to see its root meaning: **purity-with-growth**.
 
 ## What is inside
 
 | Route | Content |
 |---|---|
 | `/` | The thesis, the three poles, the ten-chapter journey, the 87:14 / 87:15 hinge |
-| `/journey` | The research in order: question, method, root anchors, the self, the equation, the act, the grant, the covenant, the increase, settled meaning |
+| `/journey` | The research in order: question, method, root anchors, the self, the equation, the act, the grant, the covenant, growth, settled meaning |
 | `/poles` | The three-pole map, the noun lexicon, verb voices, claim and grant, breach pattern, two effects, wealth/self/time/covenant/intention tables, four surah-bridges, and the verification table |
 | `/verses` | All 56 verses with search and filters (cluster, pole, fit) |
 | `/conclusion` | Plain-language and detailed conclusions, with print/PDF |
@@ -62,9 +64,10 @@ The verse translations, titles, fit notes, journey chapters, and tables are auth
 
 - The Arabic follows the study corpus (Tanzil Simple-Minimal, 6,236 verses).
 - The English verse lines are **research renderings**, not a standard translation:
-  - “the Increase” renders the noun zakāh;
-  - “grow-purify” renders the verb zakkā;
-  - “purer” renders the elative azkā.
+  - the noun **zakāh** is left untranslated; hover or focus it to see **purity-with-growth**;
+  - “purify” renders the verb zakkā;
+  - “purer” renders the elative azkā;
+  - “pure” renders the adjective zakī.
 - The collection counts distinct verses, not word occurrences: 56 verses carry 59 occurrences of the root across 20 forms.
 - The research is Quran-internal. It is not a fatwa and not a substitute for scholarly counsel.
 

@@ -42,7 +42,7 @@ export function SiteHeader() {
           <Mark />
           <span className="hidden flex-col leading-none sm:flex">
             <span className="text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-ink">
-              The Increase
+              The Zakāh
             </span>
             <span className="mt-1 text-[0.62rem] uppercase tracking-[0.16em] text-faint">
               A study of Z-K-W

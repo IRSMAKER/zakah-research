@@ -49,7 +49,7 @@ Legend: `[ ]` pending — `[~]` in progress — `[x]` studied & documented in `3
 - [x] D13 4:162 (the firm in knowledge: establishers and givers)
 - [x] D14 5:55 (God's allies: establish and give while bowing)
 
-## Cluster E — THE INSTITUTION (community, power, economy, the increase)
+## Cluster E — THE INSTITUTION (community, power, economy, growth)
 - [x] E1 9:5 (repent + establish + give = release them)
 - [x] E2 9:11 (repent + establish + give = brothers in religion)
 - [x] E3 9:18 (mosque-maintainers give the zakāh)

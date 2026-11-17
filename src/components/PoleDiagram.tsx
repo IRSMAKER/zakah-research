@@ -15,7 +15,7 @@ const groupMeta: Record<
     label: "STATE",
     gloss: "purity-growth",
     description:
-      "Purity as a quality of a living self: a pure soul, a pure boy, a purity given to a prophet, a child better in purity, wholesome food, a kept boundary, a guarded gaze. The root's success-word belongs here.",
+      "Purity as a quality of a living self: a pure soul, a pure boy, a purity given to a prophet, a child better in zakāh, wholesome food, a kept boundary, a guarded gaze. The root's success-word belongs here.",
     color: "var(--pole-state)",
     poles: ["state", "bridge"],
   },
@@ -90,7 +90,7 @@ export function PoleDiagram({ initial = "act" }: { initial?: Group }) {
             fontSize="7.5"
             letterSpacing="1"
           >
-            GROWTH-THROUGH-PURITY
+            PURITY-WITH-GROWTH
           </text>
         </svg>
 

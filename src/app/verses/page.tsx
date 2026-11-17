@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { VerseLibrary } from "@/components/VerseLibrary";
 import { COUNTS } from "@/data/verses";
+import { ZakahLegend, ZakahText } from "@/components/ZakahTerm";
 
 export const metadata: Metadata = {
   title: "The 56 Verses",
@@ -24,6 +25,7 @@ export default function VersesPage() {
             note on how the verse fits. Use the filters to move by cluster, pole, or fit —
             or search for a reference, a word, or a theme.
           </p>
+          <ZakahLegend className="mt-4 max-w-2xl" />
           <div className="mt-5 flex flex-wrap items-center gap-3 text-[0.7rem] text-faint">
             <span className="rounded-full border border-line px-2.5 py-1">
               {COUNTS.occurrences} occurrences
@@ -48,9 +50,11 @@ export default function VersesPage() {
           <p>
             <span className="text-muted">Note on the text.</span> The Arabic follows the
             study corpus. The English lines are research renderings, not a standard
-            translation: “the Increase” renders the noun zakāh, “grow-purify” renders the
-            verb zakkā, and “purer” renders the elative azkā. The Arabic is the primary
-            text.
+            translation. The noun <ZakahText text="zakāh" /> is left untranslated; hover
+            or focus it to see its root meaning,{" "}
+            <span className="text-gold">purity-with-growth</span>. “Purify” renders the
+            verb zakkā, “purer” the elative azkā, and “pure” the adjective zakī. The
+            Arabic is the primary text.
           </p>
           <p className="mt-2">
             <span className="text-muted">Note on the count.</span> The collection counts

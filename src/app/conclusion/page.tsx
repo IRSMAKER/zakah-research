@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { ConclusionView } from "@/components/ConclusionView";
+import { ZakahLegend } from "@/components/ZakahTerm";
 import {
   conclusionDetailedMarkdown,
   conclusionSimpleMarkdown,
@@ -10,7 +11,7 @@ import {
 export const metadata: Metadata = {
   title: "Conclusion",
   description:
-    "The settled meaning of Z-K-W: growth-through-purity — the release of a portion that cleanses what remains and causes it to increase. Read it in plain language or through the full twelve-section argument.",
+    "The settled meaning of Z-K-W: purity-with-growth — the release of a portion that cleanses what remains and causes it to increase. Read it in plain language or through the full twelve-section argument.",
 };
 
 const stripTitle = (value: string) => value.replace(/^#\s+.*\r?\n/, "");
@@ -24,11 +25,11 @@ export default function ConclusionPage() {
           <p className="eyebrow">The conclusion</p>
           <h1 className="mt-4 max-w-3xl font-display text-4xl leading-[1.02] tracking-[-0.03em] text-ink sm:text-5xl lg:text-6xl">
             One root. Three poles.{" "}
-            <span className="italic text-gold">One increase.</span>
+            <span className="italic text-gold">One meaning.</span>
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
             The study ends where it began: with the word. But the word is now a structure —
-            growth-through-purity: the release of a portion that cleanses what remains and
+            purity-with-growth: the release of a portion that cleanses what remains and
             causes it to increase.
           </p>
 
@@ -53,7 +54,7 @@ export default function ConclusionPage() {
         <div className="mx-auto w-full max-w-4xl px-5 py-14 text-center sm:px-8 sm:py-18">
           <p className="font-display text-[1.4rem] leading-[1.45] tracking-[-0.01em] text-ink sm:text-[1.8rem]">
             “Z-K-W names{" "}
-            <span className="text-gold">growth-through-purity</span> — the release of a
+            <span className="text-gold">purity-with-growth</span> — the release of a
             portion that cleanses what remains and causes it to increase.”
           </p>
           <p className="mx-auto mt-4 max-w-xl text-sm leading-relaxed text-muted">
@@ -64,6 +65,7 @@ export default function ConclusionPage() {
       </section>
 
       <div className="mx-auto w-full max-w-4xl px-5 py-12 sm:px-8 sm:py-16">
+        <ZakahLegend className="mb-6" />
         <ConclusionView
           simple={stripTitle(conclusionSimpleMarkdown)}
           detailed={stripTitle(conclusionDetailedMarkdown)}

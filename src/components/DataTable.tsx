@@ -1,4 +1,5 @@
 import type { TableRow } from "@/data/tables";
+import { ZakahText } from "./ZakahTerm";
 
 const arabicPattern = /[\u0600-\u06FF]/;
 
@@ -50,7 +51,7 @@ export function DataTable({
                         {cell}
                       </span>
                     ) : (
-                      cell
+                      <ZakahText text={cell} />
                     )}
                   </td>
                 ))}
@@ -61,7 +62,7 @@ export function DataTable({
       </div>
       {note ? (
         <p className="border-t border-line px-4 py-3 text-[0.72rem] leading-relaxed text-faint">
-          {note}
+          <ZakahText text={note} />
         </p>
       ) : null}
     </div>

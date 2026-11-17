@@ -3,6 +3,7 @@ import { POLE_META, type Verse } from "@/data/verses";
 import { quranUrl, refLabel } from "@/lib/utils";
 import { CopyLink } from "./CopyLink";
 import { PoleBadge } from "./PoleBadge";
+import { ZakahText } from "./ZakahTerm";
 
 export function VerseCard({ verse }: { verse: Verse }) {
   const accent = POLE_META[verse.pole].accent;
@@ -46,7 +47,7 @@ export function VerseCard({ verse }: { verse: Verse }) {
       </p>
 
       <p className="mt-3 border-l border-line pl-3 text-[0.92rem] leading-relaxed text-muted">
-        {verse.translation}
+        <ZakahText text={verse.translation} />
       </p>
 
       <div className="mt-4 flex flex-wrap items-center gap-1.5">
@@ -71,7 +72,9 @@ export function VerseCard({ verse }: { verse: Verse }) {
           <span className="group-open/details:hidden">How it fits</span>
           <span className="hidden group-open/details:inline">Hide note</span>
         </summary>
-        <p className="mt-2 text-[0.85rem] leading-relaxed text-muted">{verse.note}</p>
+        <p className="mt-2 text-[0.85rem] leading-relaxed text-muted">
+          <ZakahText text={verse.note} />
+        </p>
       </details>
 
       <div className="mt-4 flex flex-wrap items-center gap-2">

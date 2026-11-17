@@ -8,7 +8,7 @@ forms) in the Quran, documented in `3_Study_Notes.md` (56 entries) and synthesiz
 
 ## 1. The Root's Core Meaning
 
-The root Z-K-W (ز-ك-و) names **growth-through-purity**: the release of a portion that cleanses what
+The root Z-K-W (ز-ك-و) names **purity-with-growth**: the release of a portion that cleanses what
 remains and causes it to increase. Not a percentage, not a receipt, not a once-a-year transaction.
 
 The Quran states each term of the definition:
@@ -144,7 +144,7 @@ And 87:14-15 puts them in sequence: **purify → mention the Name → stand.**
 
 | Lexeme | Form | Meaning | Where |
 |---|---|---|---|
-| ZAKĀH | noun (f.) | the growth-purity; the giving that produces it | 2:43, 2:83, 98:5, etc. (26×) |
+| ZAKĀH | noun (f.) | purity-with-growth; the giving that produces it | 2:43, 2:83, 98:5, etc. (26×) |
 | ZAKĀH | indefinite | a purity-endowment; a grade of purity | 19:13 · 18:81 |
 | ZAKĀH | indefinite | any act of zakāh-giving | 30:39 |
 | ZAKĪ | adjective | pure, guiltless, sound | 18:74 · 19:19 |
@@ -186,7 +186,7 @@ them. The giving and the standing are one system.
 
 ## 12. The Settled Meaning
 
-The root Z-K-W (ز-ك-و) names **growth-through-purity** — the release of a portion that cleanses what
+The root Z-K-W (ز-ك-و) names **purity-with-growth** — the release of a portion that cleanses what
 remains and causes it to increase.
 
 - **The STATE pole:** the sound self, the pure child, the wholesome food, the kept boundary, the

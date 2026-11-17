@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { PoleDiagram } from "@/components/PoleDiagram";
 import { DataTable } from "@/components/DataTable";
+import { ZakahLegend, ZakahText } from "@/components/ZakahTerm";
 import {
   breachPattern,
   bridges,
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
 
 const glossary = [
   {
-    term: "the Increase",
+    term: "the zakāh",
     gloss: "zakāh",
     body: "The institutional name of the giving: the release that cleanses and grows. Paired with the Standing in 26 verses.",
   },
@@ -37,12 +38,12 @@ const glossary = [
     body: "A soundness of the self that can be graded: a pure soul, a pure boy, a better-in-purity child, wholesome food.",
   },
   {
-    term: "give the Increase",
+    term: "give the zakāh",
     gloss: "ātū al-zakāh",
     body: "The command: bring the portion out. The verb is “give,” never “pay.”",
   },
   {
-    term: "doers of the Increase",
+    term: "doers of the zakāh",
     gloss: "fāʿilūn",
     body: "23:4. The only verse that calls the zakāh a work with doers — a tax is paid, a zakāh is done.",
   },
@@ -73,6 +74,7 @@ export default function PolesPage() {
             the God who alone makes it work. The poles are not separate meanings; they
             are three directions of one structure.
           </p>
+          <ZakahLegend className="mt-5 max-w-2xl" />
         </div>
       </section>
 
@@ -104,7 +106,7 @@ export default function PolesPage() {
                   {item.gloss}
                 </p>
                 <p className="mt-2.5 text-[0.82rem] leading-relaxed text-muted">
-                  {item.body}
+                  <ZakahText text={item.body} />
                 </p>
               </div>
             ))}
@@ -173,7 +175,7 @@ export default function PolesPage() {
           <DataTable
             eyebrow="Covenant"
             title="A clause, never a standalone rule"
-            columns={["Verse", "The covenant", "The Increase's place"]}
+            columns={["Verse", "The covenant", "The Zakāh's place"]}
             rows={covenantTable}
             note="Zakāh is always inside a relationship — with God, the community, or the household."
           />
@@ -212,7 +214,7 @@ export default function PolesPage() {
                         {step.ref}
                       </span>
                       <span className="text-[0.82rem] leading-relaxed text-muted">
-                        {step.text}
+                        <ZakahText text={step.text} />
                       </span>
                     </li>
                   ))}

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowRight, ArrowUpRight, Quote } from "lucide-react";
 import { chapters } from "@/data/chapters";
 import { JourneyToc } from "@/components/JourneyToc";
+import { ZakahLegend, ZakahText } from "@/components/ZakahTerm";
 
 export const metadata: Metadata = {
   title: "The Journey",
@@ -39,6 +40,7 @@ export default function JourneyPage() {
               Read the full document
             </Link>
           </div>
+          <ZakahLegend className="mt-6 max-w-2xl" />
         </div>
       </section>
 
@@ -62,12 +64,14 @@ export default function JourneyPage() {
                 {chapter.title}
               </h2>
               <p className="mt-4 max-w-2xl font-display text-[1.08rem] leading-relaxed text-ink/80 sm:text-[1.18rem]">
-                {chapter.lede}
+                <ZakahText text={chapter.lede} />
               </p>
 
               <div className="mt-5 max-w-2xl space-y-4 text-[0.95rem] leading-relaxed text-muted">
                 {chapter.paragraphs.map((paragraph, i) => (
-                  <p key={i}>{paragraph}</p>
+                  <p key={i}>
+                    <ZakahText text={paragraph} />
+                  </p>
                 ))}
               </div>
 
@@ -81,7 +85,7 @@ export default function JourneyPage() {
                       {discovery.title}
                     </p>
                     <p className="mt-1.5 text-[0.82rem] leading-relaxed text-muted">
-                      {discovery.body}
+                      <ZakahText text={discovery.body} />
                     </p>
                   </div>
                 ))}
@@ -106,7 +110,7 @@ export default function JourneyPage() {
                 <blockquote className="mt-8 max-w-2xl border-l-2 border-gold pl-5">
                   <Quote className="mb-2 size-4 text-gold/70" />
                   <p className="font-display text-lg leading-relaxed text-ink sm:text-xl">
-                    {chapter.quote.text}
+                    <ZakahText text={chapter.quote.text} />
                   </p>
                   <footer className="mt-2 text-[0.68rem] uppercase tracking-[0.14em] text-faint">
                     {chapter.quote.source}

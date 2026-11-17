@@ -1,4 +1,4 @@
-const VERSION = "zakah-v1";
+const VERSION = "zakah-v2";
 const CORE = ["/", "/journey", "/poles", "/verses", "/conclusion", "/appendix", "/about"];
 
 self.addEventListener("install", (event) => {

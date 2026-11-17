@@ -3,6 +3,7 @@ import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { chapters } from "@/data/chapters";
 import { COUNTS, verseBySlug } from "@/data/verses";
 import { PoleDiagram } from "@/components/PoleDiagram";
+import { ZakahTerm, ZakahText } from "@/components/ZakahTerm";
 
 const stats = [
   { value: COUNTS.verses, label: "distinct verses" },
@@ -24,7 +25,7 @@ const shifts = [
   },
   {
     number: "03",
-    title: "The increase belongs to the giver",
+    title: "The growth belongs to the giver",
     body: "Interest does not grow with God; the giving does, and its givers are named “the multipliers.” The Quran moves the increase-verb from the lender to the giver.",
   },
 ];
@@ -43,12 +44,13 @@ export default function HomePage() {
           <div>
             <p className="eyebrow animate-rise">A Quranic word study · 56 verses</p>
             <h1 className="animate-rise mt-5 font-display text-[3.4rem] leading-[0.94] tracking-[-0.035em] text-ink sm:text-6xl lg:text-7xl">
-              The <span className="italic text-gold">Increase</span>
+              The <span className="italic text-gold">Zakāh</span>
             </h1>
             <p className="animate-rise-2 mt-6 max-w-xl text-[1.02rem] leading-relaxed text-muted sm:text-lg">
-              Zakāh is usually translated “charity” or “poor-due.” But the same root
-              names a pure soul, wholesome food, and an act God multiplies. This study
-              reads all 56 verses and finds one structure beneath them.
+              <ZakahTerm>Zakāh</ZakahTerm> is usually translated “charity” or
+              “poor-due.” But the same root names a pure soul, wholesome food, and an act
+              God multiplies. This study reads all 56 verses and finds one structure
+              beneath them.
             </p>
 
             <div className="animate-rise-2 mt-8 flex flex-wrap gap-3">
@@ -89,7 +91,7 @@ export default function HomePage() {
             <div className="absolute inset-0 grid place-items-center">
               <div className="text-center">
                 <p className="arabic-lg text-[4.4rem] leading-none text-ink sm:text-[5.4rem]">
-                  زكاة
+                  <ZakahTerm plain>زكاة</ZakahTerm>
                 </p>
                 <p className="mt-4 text-[0.62rem] uppercase tracking-[0.34em] text-faint">
                   Z-K-W
@@ -117,7 +119,7 @@ export default function HomePage() {
         <div className="mx-auto w-full max-w-4xl px-5 py-16 text-center sm:px-8 sm:py-20">
           <p className="eyebrow">The settled thesis</p>
           <p className="mt-5 font-display text-[1.55rem] leading-[1.35] tracking-[-0.015em] text-ink sm:text-[2rem]">
-            Z-K-W names <span className="text-gold">growth-through-purity</span>: the
+            Z-K-W names <span className="text-gold">purity-with-growth</span>: the
             release of a portion that cleanses what remains and causes it to increase.
           </p>
           <p className="mx-auto mt-5 max-w-2xl text-sm leading-relaxed text-muted sm:text-base">
@@ -155,7 +157,7 @@ export default function HomePage() {
             </h2>
             <p className="mt-4 text-sm leading-relaxed text-muted">
               The order matters. The purity-verses come first because they show the
-              root&apos;s skeleton; the giving, the grant, and the increase close the case.
+              root&apos;s skeleton; the giving, the grant, and the growth close the case.
             </p>
           </div>
 
@@ -175,7 +177,7 @@ export default function HomePage() {
                       {chapter.title}
                     </span>
                     <span className="mt-1.5 line-clamp-2 block text-[0.82rem] leading-relaxed text-muted">
-                      {chapter.lede}
+                      <ZakahText text={chapter.lede} />
                     </span>
                   </span>
                 </div>
@@ -211,7 +213,9 @@ export default function HomePage() {
                 <span className="font-mono text-xs text-gold">87:14</span>
               </div>
               <p className="arabic mt-5 text-[1.55rem] text-ink">{purified.arabic}</p>
-              <p className="mt-4 text-sm leading-relaxed text-muted">{purified.translation}</p>
+              <p className="mt-4 text-sm leading-relaxed text-muted">
+                <ZakahText text={purified.translation} />
+              </p>
             </div>
 
             <div className="flex items-center justify-center md:flex-col">
@@ -228,7 +232,9 @@ export default function HomePage() {
                 <span className="font-mono text-xs text-gold">87:15</span>
               </div>
               <p className="arabic mt-5 text-[1.55rem] text-ink">{stood.arabic}</p>
-              <p className="mt-4 text-sm leading-relaxed text-muted">{stood.translation}</p>
+              <p className="mt-4 text-sm leading-relaxed text-muted">
+                <ZakahText text={stood.translation} />
+              </p>
             </div>
           </div>
         </section>
@@ -249,7 +255,9 @@ export default function HomePage() {
                 <h3 className="mt-4 font-display text-xl leading-snug text-ink">
                   {shift.title}
                 </h3>
-                <p className="mt-3 text-sm leading-relaxed text-muted">{shift.body}</p>
+                <p className="mt-3 text-sm leading-relaxed text-muted">
+                  <ZakahText text={shift.body} />
+                </p>
               </div>
             ))}
           </div>

@@ -31,16 +31,16 @@ const siteUrl =
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "The Increase — A Quranic Study of Z-K-W",
-    template: "%s · The Increase",
+    default: "The Zakāh — A Quranic Study of Z-K-W",
+    template: "%s · The Zakāh",
   },
   description:
-    "A verse-by-verse study of all 56 Quranic verses of the root Z-K-W, arriving at one meaning: growth-through-purity — the release of a portion that cleanses what remains and causes it to increase.",
+    "A verse-by-verse study of all 56 Quranic verses of the root Z-K-W, arriving at one meaning: purity-with-growth — the release of a portion that cleanses what remains and causes it to increase.",
   authors: [{ name: "Muhammad Idrees" }],
   creator: "Muhammad Idrees",
   keywords: [
     "Quran",
-    "zakah",
+    "zakāh",
     "zakat",
     "zakāt",
     "Quranic study",
@@ -55,14 +55,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en",
     url: siteUrl,
-    siteName: "The Increase",
-    title: "The Increase — A Quranic Study of Z-K-W",
+    siteName: "The Zakāh",
+    title: "The Zakāh — A Quranic Study of Z-K-W",
     description:
       "All 56 verses of the root Z-K-W, read in context, tested against one meaning. 56 direct fits, 0 contradictions.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Increase — A Quranic Study of Z-K-W",
+    title: "The Zakāh — A Quranic Study of Z-K-W",
     description:
       "All 56 verses of the root Z-K-W, read in context and tested against one meaning.",
   },
@@ -87,6 +87,7 @@ export default function RootLayout({
     <html
       lang="en"
       data-theme="dark"
+      data-scroll-behavior="smooth"
       suppressHydrationWarning
       className={`${inter.variable} ${fraunces.variable} ${amiri.variable}`}
     >

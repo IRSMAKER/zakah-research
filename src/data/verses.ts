@@ -1,4 +1,4 @@
-import rawArabic from "./verse-arabic.json";
+﻿import rawArabic from "./verse-arabic.json";
 import { surahName } from "./surahs";
 
 export type Pole = "state" | "act" | "grant" | "bridge";
@@ -58,9 +58,9 @@ const content: VerseContent[] = [
   {
     ref: "19:13",
     id: "A3",
-    title: "A purity from Us",
+    title: "A zakāh from Us",
     translation:
-      "“And tenderness from Us, and a purity; and he was guarded.”",
+      "“And tenderness from Us, and a zakāh; and he was guarded.”",
     pole: "state",
     fit: "direct",
     note: "The noun appears as an inner gift beside tenderness — not a payment.",
@@ -68,9 +68,9 @@ const content: VerseContent[] = [
   {
     ref: "18:81",
     id: "A4",
-    title: "Better in purity",
+    title: "Better in zakāh",
     translation:
-      "“So we intended that their Lord replace him with one better in purity and nearer in mercy.”",
+      "“So we intended that their Lord replace him with one better in zakāh and nearer in mercy.”",
     pole: "state",
     fit: "direct",
     note: "Purity is a grade that can increase: one person can be better in it than another.",
@@ -284,7 +284,7 @@ const content: VerseContent[] = [
     id: "D1",
     title: "The upright religion",
     translation:
-      "“They were not commanded except to worship God, sincere to Him in religion, upright, and to establish the Standing and give the Increase — that is the religion of the upright.”",
+      "“They were not commanded except to worship God, sincere to Him in religion, upright, and to establish the Standing and give the zakāh — that is the religion of the upright.”",
     pole: "act",
     fit: "direct",
     note: "One of four constitutive acts of the upright religion, not an optional extra.",
@@ -294,7 +294,7 @@ const content: VerseContent[] = [
     id: "D2",
     title: "Bow with those who bow",
     translation:
-      "“And establish the Standing, and give the Increase, and bow with those who bow.”",
+      "“And establish the Standing, and give the zakāh, and bow with those who bow.”",
     pole: "act",
     fit: "direct",
     note: "The pair is commanded to a whole community, with a shared posture.",
@@ -304,17 +304,17 @@ const content: VerseContent[] = [
     id: "D3",
     title: "The covenant they turned from",
     translation:
-      "“… And establish the Standing and give the Increase. Then you turned away, except a few of you, and you were turning aside.”",
+      "“… And establish the Standing and give the zakāh. Then you turned away, except a few of you, and you were turning aside.”",
     pole: "act",
     fit: "direct",
-    note: "The increase sits inside a social-ethical covenant; its breach is a turning-away.",
+    note: "The zakāh sits inside a social-ethical covenant; its breach is a turning-away.",
   },
   {
     ref: "5:12",
     id: "D4",
     title: "Five conditions",
     translation:
-      "“If you establish the Standing and give the Increase and believe in My messengers and support them and lend God a good loan, I will cover your bad deeds and admit you to gardens.”",
+      "“If you establish the Standing and give the zakāh and believe in My messengers and support them and lend God a good loan, I will cover your bad deeds and admit you to gardens.”",
     pole: "act",
     fit: "direct",
     note: "Condition two of five; the fifth is a loan to God. The economic axis runs through the covenant.",
@@ -324,7 +324,7 @@ const content: VerseContent[] = [
     id: "D5",
     title: "Send ahead",
     translation:
-      "“And establish the Standing and give the Increase; whatever good you send ahead for yourselves, you will find it with God.”",
+      "“And establish the Standing and give the zakāh; whatever good you send ahead for yourselves, you will find it with God.”",
     pole: "act",
     fit: "direct",
     note: "The giving is sent forward — an investment deposited with God, not a loss.",
@@ -334,7 +334,7 @@ const content: VerseContent[] = [
     id: "D6",
     title: "Inside righteousness",
     translation:
-      "“… And gives wealth, despite love of it, to relatives, orphans, the poor, the wayfarer, the askers, and for slaves, and establishes the Standing and gives the Increase …”",
+      "“… And gives wealth, despite love of it, to relatives, orphans, the poor, the wayfarer, the askers, and for slaves, and establishes the Standing and gives the zakāh …”",
     pole: "act",
     fit: "direct",
     note: "Two layers: the open hand of love, then the standing obligation of the community. The inner cost is named.",
@@ -344,7 +344,7 @@ const content: VerseContent[] = [
     id: "D7",
     title: "No fear, no grief",
     translation:
-      "“Those who believe and do good works and establish the Standing and give the Increase — their reward is with their Lord, and no fear is on them, nor do they grieve.”",
+      "“Those who believe and do good works and establish the Standing and give the zakāh — their reward is with their Lord, and no fear is on them, nor do they grieve.”",
     pole: "act",
     fit: "direct",
     note: "The anti-interest act: the givers are fearless, one verse after God makes the charities grow.",
@@ -354,7 +354,7 @@ const content: VerseContent[] = [
     id: "D8",
     title: "Mercy written for the givers",
     translation:
-      "“My mercy encompasses all things; I will write it for those who guard, and give the Increase, and believe in Our signs.”",
+      "“My mercy encompasses all things; I will write it for those who guard, and give the zakāh, and believe in Our signs.”",
     pole: "act",
     fit: "direct",
     note: "A condition for mercy being written. The giver is inside the circle.",
@@ -364,7 +364,7 @@ const content: VerseContent[] = [
     id: "D9",
     title: "Enjoined for life",
     translation:
-      "“He has made me blessed wherever I am, and enjoined on me the Standing and the Increase as long as I live.”",
+      "“He has made me blessed wherever I am, and enjoined on me the Standing and the zakāh as long as I live.”",
     pole: "act",
     fit: "direct",
     note: "A prophetic enjoinder, lifelong, tied to blessedness — and blessedness is increase.",
@@ -374,7 +374,7 @@ const content: VerseContent[] = [
     id: "D10",
     title: "The household command",
     translation:
-      "“He used to command his household the Standing and the Increase, and he was pleasing to his Lord.”",
+      "“He used to command his household the Standing and the zakāh, and he was pleasing to his Lord.”",
     pole: "act",
     fit: "direct",
     note: "The family is the first unit of the institution.",
@@ -384,7 +384,7 @@ const content: VerseContent[] = [
     id: "D11",
     title: "Inspired to give",
     translation:
-      "“We made them leaders guiding by Our command, and We inspired them the doing of good, the establishing of the Standing, and the giving of the Increase.”",
+      "“We made them leaders guiding by Our command, and We inspired them the doing of good, the establishing of the Standing, and the giving of the zakāh.”",
     pole: "act",
     fit: "direct",
     note: "The giving is revelation-shaped and a mark of leadership. Leaders are defined by what they give.",
@@ -394,7 +394,7 @@ const content: VerseContent[] = [
     id: "D12",
     title: "No constriction",
     translation:
-      "“… He has not placed on you any constriction in the religion … So establish the Standing and give the Increase and hold fast to God.”",
+      "“… He has not placed on you any constriction in the religion … So establish the Standing and give the zakāh and hold fast to God.”",
     pole: "act",
     fit: "direct",
     note: "The obligation belongs to the eased religion; it cannot be a crushing burden.",
@@ -404,7 +404,7 @@ const content: VerseContent[] = [
     id: "D13",
     title: "The firmly rooted givers",
     translation:
-      "“… And the establishers of the Standing and the givers of the Increase … those We will give a great reward.”",
+      "“… And the establishers of the Standing and the givers of the zakāh … those We will give a great reward.”",
     pole: "act",
     fit: "direct",
     note: "The givers are a distinct class alongside the firmly rooted in knowledge.",
@@ -414,7 +414,7 @@ const content: VerseContent[] = [
     id: "D14",
     title: "God's party",
     translation:
-      "“Your ally is only God, His Messenger, and those who believe — who establish the Standing and give the Increase while bowing.”",
+      "“Your ally is only God, His Messenger, and those who believe — who establish the Standing and give the zakāh while bowing.”",
     pole: "act",
     fit: "direct",
     note: "The giver is an ally of God. The two acts fuse in one posture.",
@@ -424,7 +424,7 @@ const content: VerseContent[] = [
     id: "E1",
     title: "The peace-condition",
     translation:
-      "“If they repent and establish the Standing and give the Increase, then release their way; God is forgiving, merciful.”",
+      "“If they repent and establish the Standing and give the zakāh, then release their way; God is forgiving, merciful.”",
     pole: "act",
     fit: "direct",
     note: "The giving is the proof of repentance and the gate to peace.",
@@ -434,7 +434,7 @@ const content: VerseContent[] = [
     id: "E2",
     title: "Brothers in religion",
     translation:
-      "“If they repent and establish the Standing and give the Increase, then they are your brothers in religion.”",
+      "“If they repent and establish the Standing and give the zakāh, then they are your brothers in religion.”",
     pole: "act",
     fit: "direct",
     note: "The brotherhood-condition: withholding keeps one outside the bond.",
@@ -444,7 +444,7 @@ const content: VerseContent[] = [
     id: "E3",
     title: "The mosque-maintainers",
     translation:
-      "“Only those maintain God's houses who believe in God and the Last Day, establish the Standing, give the Increase, and fear none but God.”",
+      "“Only those maintain God's houses who believe in God and the Last Day, establish the Standing, give the zakāh, and fear none but God.”",
     pole: "act",
     fit: "direct",
     note: "A condition for building: the one who gives is the one who maintains.",
@@ -454,7 +454,7 @@ const content: VerseContent[] = [
     id: "E4",
     title: "The community's nerve",
     translation:
-      "“The believing men and believing women are allies of one another: they enjoin good, forbid wrong, establish the Standing, give the Increase, and obey God and His Messenger.”",
+      "“The believing men and believing women are allies of one another: they enjoin good, forbid wrong, establish the Standing, give the zakāh, and obey God and His Messenger.”",
     pole: "act",
     fit: "direct",
     note: "The economic nerve of the believing community, men and women alike.",
@@ -474,7 +474,7 @@ const content: VerseContent[] = [
     id: "E6",
     title: "The first act of power",
     translation:
-      "“Those who, if We establish them in the land, establish the Standing, give the Increase, enjoin good, and forbid wrong.”",
+      "“Those who, if We establish them in the land, establish the Standing, give the zakāh, enjoin good, and forbid wrong.”",
     pole: "act",
     fit: "direct",
     note: "The test of power is whether it gives, not whether it collects.",
@@ -482,8 +482,8 @@ const content: VerseContent[] = [
   {
     ref: "23:4",
     id: "E7",
-    title: "Doers of the Increase",
-    translation: "“And those who are doers of the Increase.”",
+    title: "Doers of the zakāh",
+    translation: "“And those who are doers of the zakāh.”",
     pole: "act",
     fit: "direct",
     note: "A work with doers, not a tax that is paid. The strongest proof that zakāh is an act.",
@@ -493,7 +493,7 @@ const content: VerseContent[] = [
     id: "E8",
     title: "Neither trade nor sale",
     translation:
-      "“Men whom neither trade nor sale distracts from the remembrance of God, the establishing of the Standing, and the giving of the Increase.”",
+      "“Men whom neither trade nor sale distracts from the remembrance of God, the establishing of the Standing, and the giving of the zakāh.”",
     pole: "act",
     fit: "direct",
     note: "The economic test: the market bows at the giving.",
@@ -503,7 +503,7 @@ const content: VerseContent[] = [
     id: "E9",
     title: "That you may receive mercy",
     translation:
-      "“Establish the Standing and give the Increase and obey the Messenger, that you may receive mercy.”",
+      "“Establish the Standing and give the zakāh and obey the Messenger, that you may receive mercy.”",
     pole: "act",
     fit: "direct",
     note: "A condition for mercy, paired with obedience.",
@@ -513,7 +513,7 @@ const content: VerseContent[] = [
     id: "E10",
     title: "Certain of the Hereafter",
     translation:
-      "“Those who establish the Standing and give the Increase, and they are certain of the Hereafter.”",
+      "“Those who establish the Standing and give the zakāh, and they are certain of the Hereafter.”",
     pole: "act",
     fit: "direct",
     note: "The one sure of the return gives now.",
@@ -523,7 +523,7 @@ const content: VerseContent[] = [
     id: "E11",
     title: "The multipliers",
     translation:
-      "“Whatever you give as interest so that it may increase in people's wealth does not increase with God; but whatever you give of the Increase, seeking God's face — those are the multipliers.”",
+      "“Whatever you give as interest so that it may increase in people's wealth does not increase with God; but whatever you give of zakāh, seeking God's face — those are the multipliers.”",
     pole: "act",
     fit: "direct",
     note: "The pivot: the Quran moves the increase-verb from the lender to the giver.",
@@ -533,7 +533,7 @@ const content: VerseContent[] = [
     id: "E12",
     title: "The fixed formula",
     translation:
-      "“Those who establish the Standing and give the Increase, and they are certain of the Hereafter.”",
+      "“Those who establish the Standing and give the zakāh, and they are certain of the Hereafter.”",
     pole: "act",
     fit: "direct",
     note: "Word-for-word with 27:3: a fixed Quranic formula, therefore an institution.",
@@ -543,7 +543,7 @@ const content: VerseContent[] = [
     id: "E13",
     title: "The purified household",
     translation:
-      "“Establish the Standing and give the Increase and obey God and His Messenger … God only desires to remove impurity from you, people of the house, and to purify you thoroughly.”",
+      "“Establish the Standing and give the zakāh and obey God and His Messenger … God only desires to remove impurity from you, people of the house, and to purify you thoroughly.”",
     pole: "act",
     fit: "direct",
     note: "The verse ends in cleansing: the giving and purification are one movement.",
@@ -553,7 +553,7 @@ const content: VerseContent[] = [
     id: "E14",
     title: "Withholding is denial",
     translation:
-      "“Those who do not give the Increase, and they are disbelievers in the Hereafter.”",
+      "“Those who do not give the zakāh, and they are disbelievers in the Hereafter.”",
     pole: "act",
     fit: "direct",
     note: "Withholding is coordinated with disbelief in the return — the sharpest negative definition.",
@@ -563,7 +563,7 @@ const content: VerseContent[] = [
     id: "E15",
     title: "After forgiveness",
     translation:
-      "“So when you did not do it, and God turned to you in forgiveness, establish the Standing and give the Increase and obey God and His Messenger.”",
+      "“So when you did not do it, and God turned to you in forgiveness, establish the Standing and give the zakāh and obey God and His Messenger.”",
     pole: "act",
     fit: "direct",
     note: "Grace precedes the act; the failed giver is re-commanded.",
@@ -573,7 +573,7 @@ const content: VerseContent[] = [
     id: "E16",
     title: "The eased arrangement",
     translation:
-      "“Recite what is easy of the Quran … establish the Standing and give the Increase and lend God a good loan.”",
+      "“Recite what is easy of the Quran … establish the Standing and give the zakāh and lend God a good loan.”",
     pole: "act",
     fit: "direct",
     note: "Commanded in the same breath as the concession; the giver becomes God's creditor.",
@@ -583,7 +583,7 @@ const content: VerseContent[] = [
     id: "E17",
     title: "The peace-act",
     translation:
-      "“Establish the Standing and give the Increase.” Then, when fighting was prescribed for them, a group of them feared people as they should fear God.",
+      "“Establish the Standing and give the zakāh.” Then, when fighting was prescribed for them, a group of them feared people as they should fear God.",
     pole: "act",
     fit: "direct",
     note: "Giving loosens the grip on wealth before life is asked for.",
@@ -672,7 +672,7 @@ export const CLUSTER_META: Record<
   },
   E: {
     label: "E · Institution",
-    description: "Community, power, economy, and the increase.",
+    description: "Community, power, economy, and growth.",
   },
 };
 

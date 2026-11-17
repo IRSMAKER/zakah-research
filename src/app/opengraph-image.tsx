@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const alt =
-  "The Increase — A Quranic Study of Z-K-W, 56 verses, one meaning, zero contradictions";
+  "The Zakāh — A Quranic Study of Z-K-W, 56 verses, one meaning, zero contradictions";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -89,7 +89,7 @@ export default function OpenGraphImage() {
                 display: "flex",
               }}
             >
-              The <span style={{ color: "#c9a86a", marginLeft: 18 }}>Increase</span>
+              The <span style={{ color: "#c9a86a", marginLeft: 18 }}>Zakāh</span>
             </div>
             <div
               style={{
@@ -101,7 +101,7 @@ export default function OpenGraphImage() {
                 display: "flex",
               }}
             >
-              Growth-through-purity: the release of a portion that cleanses what remains
+              Purity-with-growth: the release of a portion that cleanses what remains
               and causes it to increase.
             </div>
           </div>
